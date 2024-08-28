@@ -12,7 +12,7 @@ public class Tower {
     public void register(Flyable p_flyable) {
         if (this.observers == null)
             this.observers = new ArrayList<Flyable>();
-        System.out.println("Tower : " + p_flyable.description()
+        System.out.println("[Tower] : " + p_flyable.description()
                 + " registered to weather tower. God speed.");
         this.observers.add(p_flyable);
     }
